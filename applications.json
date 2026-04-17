@@ -1,0 +1,64 @@
+{
+  "Applications": [
+    {
+      "Name": "CourierHub",
+      "repositoryUrl": "https://github.com/DigitalCareGroup/shared-courierhub",
+      "Environments": [
+        {
+          "name": "tst",
+          "url": "https://tst-shared-courierhub-service.ucare.pl:3045",
+          "swaggerUrl": "https://tst-shared-courierhub-service.ucare.pl:3045/swagger/index.html",
+          "healthCheckUrl": "http://localhost:8080/https://tst-shared-courierhub-service.ucare.pl:3045/api/health"
+        },
+        {
+          "name": "uat",
+          "url": "https://uat-shared-courierhub-service.ucare.pl:3045",
+          "swaggerUrl": "https://uat-shared-courierhub-service.ucare.pl:3045/swagger/index.html",
+          "healthCheckUrl": "http://localhost:8080/https://uat-shared-courierhub-service.ucare.pl:3045/api/health"
+        },
+        {
+          "name": "pre",
+          "url": "https://pre-shared-courierhub-service.ucare.pl:3045",
+          "swaggerUrl": "https://pre-shared-courierhub-service.ucare.pl:3045/swagger/index.html",
+          "healthCheckUrl": "http://localhost:8080/https://pre-shared-courierhub-service.ucare.pl:3045/api/health"
+        },
+        {
+          "name": "prd",
+          "url": "https://shared-courierhub-service.ucare.pl:3045",
+          "swaggerUrl": "",
+          "healthCheckUrl": "http://localhost:8080/https://shared-courierhub-service.ucare.pl:3045/api/health"
+        }
+      ]
+    },
+    {
+      "Name": "AssessmentService",
+      "repositoryUrl": "https://github.com/DigitalCareGroup/alf-assessmentservice",
+      "Environments": [
+        {
+          "name": "tst",
+          "url": "https://tst-alf-assessmentservice.ucare.pl:8089",
+          "swaggerUrl": "https://tst-alf-assessmentservice.ucare.pl:8089/swagger/index.html",
+          "healthCheckUrl": "http://localhost:8080/https://tst-alf-assessmentservice.ucare.pl:8089/api/health"
+        },
+        {
+          "name": "uat",
+          "url": "https://uat-alf-assessmentservice.ucare.pl:8089",
+          "swaggerUrl": "https://uat-alf-assessmentservice.ucare.pl:8089/swagger/index.html",
+          "healthCheckUrl": "http://localhost:8080/https://uat-alf-assessmentservice.ucare.pl:8089/api/health"
+        },
+        {
+          "name": "pre",
+          "url": "https://pre-alf-assessmentservice.ucare.pl:8089",
+          "swaggerUrl": "https://pre-alf-assessmentservice.ucare.pl:8089/swagger/index.html",
+          "healthCheckUrl": "http://localhost:8080/https://pre-alf-assessmentservice.ucare.pl:8089/api/health"
+        },
+        {
+          "name": "prd",
+          "url": "https://alf-assessmentservice.ucare.pl:8089",
+          "swaggerUrl": "",
+          "healthCheckUrl": "http://localhost:8080/https://alf-assessmentservice.ucare.pl:8089/api/health"
+        }
+      ]
+    }
+  ]
+}
